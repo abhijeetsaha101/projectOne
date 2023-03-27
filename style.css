@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Cormorant", serif;
+  background-color: #282a3f;
+  color: #fff;
+}
+
+header {
+  margin: 40px;
+}
+
+h1 {
+  display: inline-block;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+header nav {
+  display: inline-block;
+}
+
+.links li {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 16px;
+}
+
+a.active {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+.gallery {
+  margin: 32px;
+}
+
+.project {
+  width: 48%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.project img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.project img:hover {
+  opacity: 0.9;
+}
+
+.project a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 8px 0 16px 0;
+}
+
+svg {
+  height: 16px;
+}
+
+.about {
+  width: 40%;
+  min-width: 600px;
+  margin: 100px 0 100px 48px;
+}
+
+h2, h3 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.about h3 {
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+.about p {
+  margin-top: 24px;
+}
+
+.about p a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
